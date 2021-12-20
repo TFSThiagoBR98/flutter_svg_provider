@@ -1,14 +1,13 @@
 library flutter_svg_provider;
 
-import 'dart:io';
 import 'dart:async';
 import 'dart:ui' as ui show Image, Picture;
 
-import 'package:flutter/widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart';
 import 'package:http/http.dart' as http;
 import 'package:flutter_svg/flutter_svg.dart';
+import 'utils/file.dart';
 import 'package:flutter/services.dart' show rootBundle;
 
 /// An [Enum] of the possible image path sources.
